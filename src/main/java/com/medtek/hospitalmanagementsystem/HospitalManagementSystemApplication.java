@@ -1,0 +1,14 @@
+package com.medtek.hospitalmanagementsystem;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+
+@SpringBootApplication
+public class HospitalManagementSystemApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HospitalManagementSystemApplication.class, args);
+	}
+}
